@@ -17,7 +17,5 @@ before_install:
   - cd ..
 
 after_script:
-  - pwd
-  - ll
   - rm -f jscoverage-0.5.1.tar.bz2
   - rm -rf jscoverage-0.5.1
