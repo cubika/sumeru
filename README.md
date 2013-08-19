@@ -1,6 +1,6 @@
-[![Build Status](https://secure.travis-ci.org/brandnewera/sumeru.png)](http://travis-ci.org/brandnewera/sumeru)
+[![Build Status](https://secure.travis-ci.org/cubika/sumeru.png)](http://travis-ci.org/cubika/sumeru)
 [![Dependency Status](https://gemnasium.com/brandnewera/sumeru.png)](https://gemnasium.com/brandnewera/sumeru)
-[![Coverage Status](https://coveralls.io/repos/brandnewera/sumeru/badge.png)](https://coveralls.io/r/brandnewera/sumeru)
+[![Coverage Status](https://coveralls.io/repos/cubika/sumeru/badge.png)](https://coveralls.io/r/cubika/sumeru)
 
 
 ##What is Sumeru Framework?
