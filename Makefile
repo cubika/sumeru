@@ -32,10 +32,10 @@ test-cov: sumeru-cov
 	#fix me mocha-lcov-reporter can cause loop and then can not exit
 	#@SUMERU_COV=1 $(MAKE) test REPORTER=mocha-lcov-reporter
 	@SUMERU_COV=1 $(MAKE) test REPORTER=mocha-lcov-reporter | ./node_modules/coveralls/bin/coveralls.js
-	@rm -rf sumeru-cov
+	rm -rf sumeru-cov
 
 sumeru-cov:
-	@rm -rf $@
-	@$(JSCOVERAGE) sumeru $@ --no-highlight --encoding=UTF-8
+	#@rm -rf $@
+	$(JSCOVERAGE) sumeru $@ --no-highlight --encoding=UTF-8
 
 .PHONY: test test-g test-cov sumeru-cov 
